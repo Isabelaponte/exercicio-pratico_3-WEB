@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="utf-8">
+    <title>Exemplo de site com tags semânticas HTML5</title>
+</head>
+
+<body>
+    <!-- Todo site começa com uma declaração de "para que serve", contendo um <h1> com seu título e, talvez, algum conteúdo extra.
+         Isso é um cabeçalho (header) -->
+    <header>
+        <h1>Site de notícias do IFSP</h1>
+        <p>Pois o mundo não para!</p>
+    </header>
+
+    <!-- Em geral um website possui algum tipo de barra de navegação, que pode ou não estar embutida dentro do <header> acima.
+         Nesse arquivo, usamos o <nav> separadamente. -->
+    <nav>
+        <!-- Um menu em geral é uma lista de links, a estilização depende do CSS -->
+        <ul>
+            <li><a href="#">Link 1</a></li>
+            <li><a href="#">Link 2</a></li>
+            <li><a href="#">Link 3</a></li>
+            <li><a href="#">Link 4</a></li>
+        </ul>
+    </nav>
+
+    <!-- Todo website, por menor que seja, tem uma parte "fundamental" ou "principal" (aquilo que deve ser mostrado pro usuário).
+         Para um website de notícias, são as notícias. Ou seja, elas são o conteúdo principal (main) dessa página. -->
+    <main>
+        <!-- Podemos dividir o nosso conteúdo em assuntos diferentes. Cada assunto é uma diferente seção do site. Ou seja, um <section> para cada assunto... -->
+        <section>
+            <!-- Cada seção tem um motivo ou uma apresentação inicial... Ou seja, um <header> -->
+            <header>
+                <!-- <h2> pois é o nível logo abaixo do <h1> superior lá em cima e devemos seguir a ordem h1 -> h2 -> h3 -> ...  -->
+                <h2>Esportes</h2>
+            </header>
+            <!-- Cada unidade em um site de notícias... é uma notícia. Ou seja, um <article> é uma notícia completa. -->
+            <article>
+                <!-- Cada notícia tem um título ou algumas informações introdutórias fundamentais. É seu cabeçalho! -->
+                <header>
+                    <!-- Note que a notícia é de "esporte", ou seja, de menor nível que a seção de esportes. Por isso, h3... -->
+                    <h3>Fonte afirmam que Pelé está cotado para seleção</h3>
+                </header>
+                <!-- Não existe uma tag específica para "corpo" de um artigo/section. Podemos usar um simples <div> mesmo. -->
+                <div>
+                    <!-- Aqui vai o conteúdo normal, com tabelas, figuras, multimídia, etc. Para não ficar vazio, uma frase simples e única. -->
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras rutrum posuere sem eget mollis. Donec fermentum luctus convallis. Phasellus sit amet imperdiet felis. Donec sem metus, gravida in elementum vel, vehicula dignissim urna.
+                        Aliquam rutrum, turpis at ullamcorper vulputate, massa justo suscipit est, id consequat nisl nunc et odio. Pellentesque dapibus neque nulla, sed molestie lacus accumsan sit amet. Morbi laoreet nisi sit amet condimentum pellentesque.
+                        Aliquam quam libero, pretium vitae tortor et, ultricies egestas nunc.</p>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras rutrum posuere sem eget mollis. Donec fermentum luctus convallis. Phasellus sit amet imperdiet felis. Donec sem metus, gravida in elementum vel, vehicula dignissim urna.
+                        Aliquam rutrum, turpis at ullamcorper vulputate, massa justo suscipit est, id consequat nisl nunc et odio. Pellentesque dapibus neque nulla, sed molestie lacus accumsan sit amet. Morbi laoreet nisi sit amet condimentum pellentesque.
+                        Aliquam quam libero, pretium vitae tortor et, ultricies egestas nunc.</p>
+
+                </div>
+                <!-- Ao fim da notícia, pode ser interessante colocar algumas informações extras, comentários e relacionados. Isso é o rodapé <footer> -->
+                <footer>
+                    <p>Esta notícia foi publicada em <b>algum dia</b> por <i>alguma pessoa</i></p>
+                </footer>
+
+            </article>
+            <!-- Esse outro article é idêntico. Não muda nada. -->
+            <article>
+                <!-- Cada notícia tem um título ou algumas informações introdutórias fundamentais. É seu cabeçalho! -->
+                <header>
+                    <!-- Note que a notícia é de "esporte", ou seja, de menor nível que a seção de esportes. Por isso, h3... -->
+                    <h3>Fonte afirmam que Pelé está cotado para seleção</h3>
+                </header>
+                <!-- Não existe uma tag específica para "corpo" de um artigo/section. Podemos usar um simples <div> mesmo. -->
+                <div>
+                    <!-- Aqui vai o conteúdo normal, com tabelas, figuras, multimídia, etc. Para não ficar vazio, uma frase simples e única. -->
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras rutrum posuere sem eget mollis. Donec fermentum luctus convallis. Phasellus sit amet imperdiet felis. Donec sem metus, gravida in elementum vel, vehicula dignissim urna.
+                        Aliquam rutrum, turpis at ullamcorper vulputate, massa justo suscipit est, id consequat nisl nunc et odio. Pellentesque dapibus neque nulla, sed molestie lacus accumsan sit amet. Morbi laoreet nisi sit amet condimentum pellentesque.
+                        Aliquam quam libero, pretium vitae tortor et, ultricies egestas nunc.</p>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras rutrum posuere sem eget mollis. Donec fermentum luctus convallis. Phasellus sit amet imperdiet felis. Donec sem metus, gravida in elementum vel, vehicula dignissim urna.
+                        Aliquam rutrum, turpis at ullamcorper vulputate, massa justo suscipit est, id consequat nisl nunc et odio. Pellentesque dapibus neque nulla, sed molestie lacus accumsan sit amet. Morbi laoreet nisi sit amet condimentum pellentesque.
+                        Aliquam quam libero, pretium vitae tortor et, ultricies egestas nunc.</p>
+
+                </div>
+                <!-- Ao fim da notícia, pode ser interessante colocar algumas informações extras, comentários e relacionados. Isso é o rodapé <footer> -->
+                <footer>
+                    <p>Esta notícia foi publicada em <b>algum dia</b> por <i>alguma pessoa</i></p>
+                </footer>
+
+            </article>
+        </section>
+        <!-- Acabou a seção de notícias de esporte, outra seção agora, para entretenimento... -->
+        <section>
+            <!-- Cada seção tem um motivo ou uma apresentação inicial... Ou seja, um <header> -->
+            <header>
+                <!-- <h2> pois é o nível logo abaixo do <h1> superior lá em cima e devemos seguir a ordem h1 -> h2 -> h3 -> ...  -->
+                <h2>Esportes</h2>
+            </header>
+            <!-- Cada unidade em um site de notícias... é uma notícia. Ou seja, um <article> é uma notícia completa. -->
+            <article>
+                <!-- Cada notícia tem um título ou algumas informações introdutórias fundamentais. É seu cabeçalho! -->
+                <header>
+                    <!-- Note que a notícia é de "esporte", ou seja, de menor nível que a seção de esportes. Por isso, h3... -->
+                    <h3>Matrix 4 vai ser ruim</h3>
+                </header>
+                <!-- Não existe uma tag específica para "corpo" de um artigo/section. Podemos usar um simples <div> mesmo. -->
+                <div>
+                    <!-- Aqui vai o conteúdo normal, com tabelas, figuras, multimídia, etc. Para não ficar vazio, uma frase simples e única. -->
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras rutrum posuere sem eget mollis. Donec fermentum luctus convallis. Phasellus sit amet imperdiet felis. Donec sem metus, gravida in elementum vel, vehicula dignissim urna.
+                        Aliquam rutrum, turpis at ullamcorper vulputate, massa justo suscipit est, id consequat nisl nunc et odio. Pellentesque dapibus neque nulla, sed molestie lacus accumsan sit amet. Morbi laoreet nisi sit amet condimentum pellentesque.
+                        Aliquam quam libero, pretium vitae tortor et, ultricies egestas nunc.</p>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras rutrum posuere sem eget mollis. Donec fermentum luctus convallis. Phasellus sit amet imperdiet felis. Donec sem metus, gravida in elementum vel, vehicula dignissim urna.
+                        Aliquam rutrum, turpis at ullamcorper vulputate, massa justo suscipit est, id consequat nisl nunc et odio. Pellentesque dapibus neque nulla, sed molestie lacus accumsan sit amet. Morbi laoreet nisi sit amet condimentum pellentesque.
+                        Aliquam quam libero, pretium vitae tortor et, ultricies egestas nunc.</p>
+
+                </div>
+                <!-- Ao fim da notícia, pode ser interessante colocar algumas informações extras, comentários e relacionados. Isso é o rodapé <footer> -->
+                <footer>
+                    <p>Esta notícia foi publicada em <b>algum dia</b> por <i>alguma pessoa</i></p>
+                </footer>
+
+            </article>
+            <!-- Esse outro article é idêntico. Não muda nada. -->
+            <article>
+                <!-- Cada notícia tem um título ou algumas informações introdutórias fundamentais. É seu cabeçalho! -->
+                <header>
+                    <!-- Note que a notícia é de "esporte", ou seja, de menor nível que a seção de esportes. Por isso, h3... -->
+                    <h3>Matrix 4 vai ser ruim</h3>
+                </header>
+                <!-- Não existe uma tag específica para "corpo" de um artigo/section. Podemos usar um simples <div> mesmo. -->
+                <div>
+                    <!-- Aqui vai o conteúdo normal, com tabelas, figuras, multimídia, etc. Para não ficar vazio, uma frase simples e única. -->
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras rutrum posuere sem eget mollis. Donec fermentum luctus convallis. Phasellus sit amet imperdiet felis. Donec sem metus, gravida in elementum vel, vehicula dignissim urna.
+                        Aliquam rutrum, turpis at ullamcorper vulputate, massa justo suscipit est, id consequat nisl nunc et odio. Pellentesque dapibus neque nulla, sed molestie lacus accumsan sit amet. Morbi laoreet nisi sit amet condimentum pellentesque.
+                        Aliquam quam libero, pretium vitae tortor et, ultricies egestas nunc.</p>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras rutrum posuere sem eget mollis. Donec fermentum luctus convallis. Phasellus sit amet imperdiet felis. Donec sem metus, gravida in elementum vel, vehicula dignissim urna.
+                        Aliquam rutrum, turpis at ullamcorper vulputate, massa justo suscipit est, id consequat nisl nunc et odio. Pellentesque dapibus neque nulla, sed molestie lacus accumsan sit amet. Morbi laoreet nisi sit amet condimentum pellentesque.
+                        Aliquam quam libero, pretium vitae tortor et, ultricies egestas nunc.</p>
+
+                </div>
+                <!-- Ao fim da notícia, pode ser interessante colocar algumas informações extras, comentários e relacionados. Isso é o rodapé <footer> -->
+                <footer>
+                    <p>Esta notícia foi publicada em <b>algum dia</b> por <i>alguma pessoa</i></p>
+                </footer>
+            </article>
+        </section>
+    </main>
+    <!-- Fim da seção principal, vamos criar uma seção relacionada com propagandas ou similares. Usamos um <aside>.
+        O <aside> pode estar associado também a uma section, um article ou outro elemento do site. -->
+    <aside>
+        <!-- Aqui seria qualquer código desejado (inclusive com <header>, <footer> ou similar).  Para não ficar em branco, um dragão!-->
+        <img src="https://www.horoscopovirtual.com.br/imagem/signos/horoscopo-chines/dragao.jpg" alt="Signo Dragão Chinês">
+    </aside>
+    <!-- Algumas vezes queremos finalizar com algumas informações especiais, formas de contato ou similares. Hora de um rodapé para finalizar o site... -->
+    <footer>
+        <p>Desenvolvido com amor no IFSP</p>
+    </footer>
+</body>
+
+</html>
