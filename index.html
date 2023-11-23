@@ -3,6 +3,7 @@
 
 <head>
     <meta charset="UTF-8">
+    <link rel="stylesheet" href="index.css">
     <title>Exercicio Pratico 03</title>
 
     <style>
@@ -14,10 +15,8 @@
 </head>
 
 <body>
-
-    <header>
-        <nav>
-            <ul>
+        <nav class="navbar">
+            <ul class="nav__links">
                 <li><a href="#">Home</a></li>
                 <li><a href="/musicas.html">Músicas</a></li>
                 <li><a href="/calendario.html">Calendário</a></li>
@@ -25,24 +24,21 @@
             </ul>
         </nav>
 
+
+    <header class="initial-header">
+        <h1>Confira os melhores lançamentos de jogos de 2023!</h1>
+        <p>Resident Evil 4 Remake, Final Fantasy XVI, Zelda e muito mais! </p>
     </header>
 
-
     <main>
-        <header>
-            <h1>Confira os melhores lançamentos de jogos de 2023!</h1>
-            <p>Resident Evil 4 Remake, Final Fantasy XVI, Zelda e muito mais! </p>
-
+        <header class="header-main">
             <img src="/images/indexImage.jpg" alt="Jogos 2023" width="560">
 
             <p>O ano de 2023 está agitando completamente o mundo dos videogames, trazendo lançamentos de muitos jogos
-                esperados
-                pela comunidade!</p>
+                esperados pela comunidade!</p>
 
             <p>Para não deixar ninguém fora do radar, separamos carinhosamente uma lista dos principais lançamentos de
-                jogos
-                de 2023,
-                dos quais alguns já estão disponíveis e outros ainda estão por vir!</p>
+                jogos de 2023, dos quais alguns já estão disponíveis e outros ainda estão por vir!</p>
         </header>
 
         <section>
@@ -175,7 +171,8 @@
 
     <footer>
         <br>
-        <a href="#">Voltar ao topo</a>
+        <a href="#" class="link__footer
+        ">Voltar ao topo</a>
         <p>Página desenvolvida por Isabela de Ponte (SC3035018) para um projeto prático da disciplica IWEB (2023.2)</p>
         <p>Todas as imagens e vídeos dos jogos são marcas registradas dos seus respectivos proprietários.</p>
     </footer>
