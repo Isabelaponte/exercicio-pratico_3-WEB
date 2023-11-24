@@ -1,0 +1,48 @@
+@import 'global.css';
+
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+h1{
+    color: var(--primary);
+    margin-top: 3rem;
+}
+
+
+h2{
+    text-align: center;
+}
+
+ol{
+    text-align: left;
+}
+
+ol a{
+    text-decoration: none;
+}
+
+figcaption{
+    text-align: center;
+}
+
+small{
+    color: rgb(96, 83, 96);
+}
+
+footer{
+    margin: 0px 100px;
+}
+
+.header{
+    text-align: center;
+}
+
+.months{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
