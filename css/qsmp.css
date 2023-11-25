@@ -1,89 +1,153 @@
 @import 'global.css';
 
-body > header, main, footer{
-    margin: 0px 100px;
+body>header,
+main,
+footer {
+    margin: 0px 150px;
 }
 
-h1{
+h1 {
     margin-top: 80px;
     color: var(--primary);
 }
 
-h2, .gegg_icon{
+h2,
+.gegg_icon {
     margin-top: 45px;
 }
 
-table{
+h5{
+    color: var(--secondary)!important;
+}
+
+table {
     margin: 40px 0;
     width: 80%;
     table-layout: fixed;
-    border-collapse: collapse; 
+    border-collapse: collapse;
     border-radius: 12px;
-    box-shadow: 0px 0px 15px 0px rgba(0,0,0,0.4);
+    box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.4);
 }
 
-td{
+td {
     background: white;
     text-align: center;
     padding: 1rem;
-    word-wrap:break-word;
+    word-wrap: break-word;
 }
 
-img{
+th {
+    text-align: center;
+}
+
+tbody,
+td,
+tfoot,
+th,
+thead,
+tr {
+    border-style: none;
+}
+
+img {
     background: transparent;
 }
 
-li{
+li {
     padding: 5px;
 }
 
+aside{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-direction: center;
+    margin-bottom: 50px;
+}
 
-.table{
+aside > p {
+    padding: 1rem;
+}
+
+
+.table {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
 }
 
- .tr-head{
+.tr-head {
     border-radius: 8px;
- }
+}
 
- .table-head{
-    background:var(--table-head);
+.table-head {
+    background: var(--table-head);
     padding: 1rem;
     color: aliceblue;
     font-size: 18px;
     font-weight: 500;
- }
+}
 
- .border-top-left{
+.border-top-left {
     border-top-left-radius: 12px;
- }
+}
 
- .border-top-right{
+.border-top-right {
     border-top-right-radius: 12px;
- }
+}
 
- .border-bottom-left{
+.border-bottom-left {
     border-bottom-left-radius: 12px;
- }
+}
 
- .border-bottom-right{
+.border-bottom-right {
     border-bottom-right-radius: 12px;
- }
+}
 
- .tr-body:hover > td{
+.tr-body:hover>td {
+    transition-duration: 0.3s;
     background: var(--background);
- }
+}
 
-.curiositys{
+.curiositys {
+    margin-bottom: 80px;
+}
+
+.card {
+    padding: 1rem;
+}
+
+.card-body{
     display: flex;
-    margin-bottom: 50px;
+    flex-direction: column;
+    justify-content: center;
 }
 
-.link__footer{
-    font-weight: 600;
-    font-size: 18px;
+.card-text {
+    padding-top: 1rem;
 }
 
+.card:hover {
+    transition-duration: 0.3s;
+    box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.2);
+}
+
+.aside_curiosity{
+    margin-top: 50px;
+}
+
+.link__curiositys{
+    text-decoration: none;
+    color: var(--accent);
+}
+
+.link__curiositys:hover{
+    transition-duration: 0.3s;
+    text-decoration: underline;
+    color: var(--accent-two);
+}
+
+.link__footer {
+    color: var(--text);
+}
