@@ -69,6 +69,24 @@ aside > p {
     padding: 1rem;
 }
 
+p{
+    text-align: justify;
+}
+
+.source-paragraph{
+    color: var(--text-two);
+}
+
+.links{
+    text-decoration: none;
+    color: var(--accent);
+}
+
+.links:hover{
+    transition: 0.3s;
+    color: var(--accent-two);
+    text-decoration: underline;
+}
 
 .table {
     display: flex;
@@ -135,17 +153,6 @@ aside > p {
 
 .aside_curiosity{
     margin-top: 50px;
-}
-
-.link__curiositys{
-    text-decoration: none;
-    color: var(--accent);
-}
-
-.link__curiositys:hover{
-    transition-duration: 0.3s;
-    text-decoration: underline;
-    color: var(--accent-two);
 }
 
 .link__footer {
