@@ -73,6 +73,11 @@ p{
     text-align: justify;
 }
 
+a{
+    text-decoration: none;
+    color: white;
+}
+
 .source-paragraph{
     color: var(--text-two);
 }
@@ -153,6 +158,18 @@ p{
 
 .aside_curiosity{
     margin-top: 50px;
+}
+
+.btn-createEgg{
+    color: white;
+    background-color: var(--accent);
+    border: none;
+}
+
+.btn-createEgg:hover{
+    color: white;
+    transition: 0.5s;
+    background-color: var(--accent-two);
 }
 
 .link__footer {

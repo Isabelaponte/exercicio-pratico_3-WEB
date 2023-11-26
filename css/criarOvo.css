@@ -1,0 +1,23 @@
+@import 'global.css';
+
+body{
+    background: var(--background);
+}
+
+main{
+    margin: 100px 300px;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+.btn-primary{
+    background-color: var(--accent);
+    border: none;
+}
+
+.btn-primary:hover{
+    background-color: var(--accent-two);
+}
