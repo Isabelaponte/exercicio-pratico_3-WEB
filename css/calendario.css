@@ -9,12 +9,15 @@ main{
 
 h1{
     color: var(--primary);
-    margin-top: 3rem;
 }
-
 
 h2{
     text-align: center;
+}
+
+h1, h2{
+    margin-top: 3rem;
+    margin-bottom: 2rem;
 }
 
 ol{

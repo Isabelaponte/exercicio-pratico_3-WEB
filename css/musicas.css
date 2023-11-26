@@ -1,9 +1,10 @@
 @import 'global.css';
 
-
-
-main, footer{
-    margin: 0px 100px;
+main{
+    margin: 0px 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 h1{
@@ -13,14 +14,35 @@ h1{
 }
 
 h2{
+    margin-bottom: 2rem;
     color: var(--secondary);
 }
 
 section{
     margin-top: 60px;
+    display: flex;
+    flex-direction: column;
 }
 
+header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+section{
+    gap: 20px;
+}
+
+p{
+    text-align: justify;
+}
 
 section li{
     line-height: 30px
+}
+
+
+footer{
+    margin: 0px 100px;
 }
