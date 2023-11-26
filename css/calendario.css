@@ -49,3 +49,11 @@ footer{
     flex-direction: column;
     align-items: center;
 }
+
+.link__calendar{
+    color: var(--accent);
+}
+
+.link__calendar:hover{
+    color: var(--accent-two);
+}
